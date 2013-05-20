@@ -1,0 +1,332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7360AFBC139D818200692D73 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7360AFBB139D818200692D73 /* Cocoa.framework */; };
+		7360AFBE139D818200692D73 /* AppleScriptObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7360AFBD139D818200692D73 /* AppleScriptObjC.framework */; };
+		7360AFC8139D818200692D73 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7360AFC6139D818200692D73 /* InfoPlist.strings */; };
+		7360AFCB139D818200692D73 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7360AFCA139D818200692D73 /* main.m */; };
+		7360AFCE139D818200692D73 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 7360AFCC139D818200692D73 /* Credits.rtf */; };
+		7360AFD0139D818200692D73 /* iRemoteAppDelegate.applescript in Sources */ = {isa = PBXBuildFile; fileRef = 7360AFCF139D818200692D73 /* iRemoteAppDelegate.applescript */; };
+		7360AFD3139D818200692D73 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7360AFD1139D818200692D73 /* MainMenu.xib */; };
+		7360AFE2139D840500692D73 /* 1303676552_sound_high copy 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7360AFDA139D840500692D73 /* 1303676552_sound_high copy 2.png */; };
+		7360AFE3139D840500692D73 /* 1303676552_sound_high copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 7360AFDB139D840500692D73 /* 1303676552_sound_high copy.png */; };
+		7360AFE4139D840500692D73 /* 1303676552_sound_high.png in Resources */ = {isa = PBXBuildFile; fileRef = 7360AFDC139D840500692D73 /* 1303676552_sound_high.png */; };
+		7360AFE5139D840500692D73 /* 1303735638_music-note.png in Resources */ = {isa = PBXBuildFile; fileRef = 7360AFDD139D840500692D73 /* 1303735638_music-note.png */; };
+		7360AFE6139D840500692D73 /* 1303939892_monotone_search_zoom.png in Resources */ = {isa = PBXBuildFile; fileRef = 7360AFDE139D840500692D73 /* 1303939892_monotone_search_zoom.png */; };
+		7360AFE7139D840500692D73 /* pp.png in Resources */ = {isa = PBXBuildFile; fileRef = 7360AFDF139D840500692D73 /* pp.png */; };
+		7360AFE8139D840500692D73 /* sf.png in Resources */ = {isa = PBXBuildFile; fileRef = 7360AFE0139D840500692D73 /* sf.png */; };
+		7360AFE9139D840500692D73 /* sp.png in Resources */ = {isa = PBXBuildFile; fileRef = 7360AFE1139D840500692D73 /* sp.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7360AFB7139D818200692D73 /* iRemote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iRemote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7360AFBB139D818200692D73 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		7360AFBD139D818200692D73 /* AppleScriptObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptObjC.framework; path = System/Library/Frameworks/AppleScriptObjC.framework; sourceTree = SDKROOT; };
+		7360AFC0139D818200692D73 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		7360AFC1139D818200692D73 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		7360AFC2139D818200692D73 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7360AFC5139D818200692D73 /* iRemote-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iRemote-Info.plist"; sourceTree = "<group>"; };
+		7360AFC7139D818200692D73 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7360AFC9139D818200692D73 /* iRemote-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iRemote-Prefix.pch"; sourceTree = "<group>"; };
+		7360AFCA139D818200692D73 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7360AFCD139D818200692D73 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		7360AFCF139D818200692D73 /* iRemoteAppDelegate.applescript */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.applescript; path = iRemoteAppDelegate.applescript; sourceTree = "<group>"; };
+		7360AFD2139D818200692D73 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		7360AFDA139D840500692D73 /* 1303676552_sound_high copy 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1303676552_sound_high copy 2.png"; sourceTree = "<group>"; };
+		7360AFDB139D840500692D73 /* 1303676552_sound_high copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1303676552_sound_high copy.png"; sourceTree = "<group>"; };
+		7360AFDC139D840500692D73 /* 1303676552_sound_high.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1303676552_sound_high.png; sourceTree = "<group>"; };
+		7360AFDD139D840500692D73 /* 1303735638_music-note.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1303735638_music-note.png"; sourceTree = "<group>"; };
+		7360AFDE139D840500692D73 /* 1303939892_monotone_search_zoom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1303939892_monotone_search_zoom.png; sourceTree = "<group>"; };
+		7360AFDF139D840500692D73 /* pp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pp.png; sourceTree = "<group>"; };
+		7360AFE0139D840500692D73 /* sf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sf.png; sourceTree = "<group>"; };
+		7360AFE1139D840500692D73 /* sp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sp.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7360AFB4139D818200692D73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7360AFBC139D818200692D73 /* Cocoa.framework in Frameworks */,
+				7360AFBE139D818200692D73 /* AppleScriptObjC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7360AFAC139D818200692D73 = {
+			isa = PBXGroup;
+			children = (
+				7360AFC3139D818200692D73 /* iRemote */,
+				7360AFBA139D818200692D73 /* Frameworks */,
+				7360AFB8139D818200692D73 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7360AFB8139D818200692D73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7360AFB7139D818200692D73 /* iRemote.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7360AFBA139D818200692D73 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7360AFBB139D818200692D73 /* Cocoa.framework */,
+				7360AFBD139D818200692D73 /* AppleScriptObjC.framework */,
+				7360AFBF139D818200692D73 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7360AFBF139D818200692D73 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7360AFC0139D818200692D73 /* AppKit.framework */,
+				7360AFC1139D818200692D73 /* CoreData.framework */,
+				7360AFC2139D818200692D73 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		7360AFC3139D818200692D73 /* iRemote */ = {
+			isa = PBXGroup;
+			children = (
+				7360AFCF139D818200692D73 /* iRemoteAppDelegate.applescript */,
+				7360AFD1139D818200692D73 /* MainMenu.xib */,
+				7360AFD9139D840500692D73 /* iRemote Buttons */,
+				7360AFC4139D818200692D73 /* Supporting Files */,
+			);
+			path = iRemote;
+			sourceTree = "<group>";
+		};
+		7360AFC4139D818200692D73 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7360AFC5139D818200692D73 /* iRemote-Info.plist */,
+				7360AFC6139D818200692D73 /* InfoPlist.strings */,
+				7360AFC9139D818200692D73 /* iRemote-Prefix.pch */,
+				7360AFCA139D818200692D73 /* main.m */,
+				7360AFCC139D818200692D73 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7360AFD9139D840500692D73 /* iRemote Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				7360AFDA139D840500692D73 /* 1303676552_sound_high copy 2.png */,
+				7360AFDB139D840500692D73 /* 1303676552_sound_high copy.png */,
+				7360AFDC139D840500692D73 /* 1303676552_sound_high.png */,
+				7360AFDD139D840500692D73 /* 1303735638_music-note.png */,
+				7360AFDE139D840500692D73 /* 1303939892_monotone_search_zoom.png */,
+				7360AFDF139D840500692D73 /* pp.png */,
+				7360AFE0139D840500692D73 /* sf.png */,
+				7360AFE1139D840500692D73 /* sp.png */,
+			);
+			path = "iRemote Buttons";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7360AFB6139D818200692D73 /* iRemote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7360AFD6139D818200692D73 /* Build configuration list for PBXNativeTarget "iRemote" */;
+			buildPhases = (
+				7360AFB3139D818200692D73 /* Sources */,
+				7360AFB4139D818200692D73 /* Frameworks */,
+				7360AFB5139D818200692D73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iRemote;
+			productName = iRemote;
+			productReference = 7360AFB7139D818200692D73 /* iRemote.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7360AFAE139D818200692D73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = BaldwinSoft;
+			};
+			buildConfigurationList = 7360AFB1139D818200692D73 /* Build configuration list for PBXProject "iRemote" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7360AFAC139D818200692D73;
+			productRefGroup = 7360AFB8139D818200692D73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7360AFB6139D818200692D73 /* iRemote */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7360AFB5139D818200692D73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7360AFC8139D818200692D73 /* InfoPlist.strings in Resources */,
+				7360AFCE139D818200692D73 /* Credits.rtf in Resources */,
+				7360AFD3139D818200692D73 /* MainMenu.xib in Resources */,
+				7360AFE2139D840500692D73 /* 1303676552_sound_high copy 2.png in Resources */,
+				7360AFE3139D840500692D73 /* 1303676552_sound_high copy.png in Resources */,
+				7360AFE4139D840500692D73 /* 1303676552_sound_high.png in Resources */,
+				7360AFE5139D840500692D73 /* 1303735638_music-note.png in Resources */,
+				7360AFE6139D840500692D73 /* 1303939892_monotone_search_zoom.png in Resources */,
+				7360AFE7139D840500692D73 /* pp.png in Resources */,
+				7360AFE8139D840500692D73 /* sf.png in Resources */,
+				7360AFE9139D840500692D73 /* sp.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7360AFB3139D818200692D73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7360AFCB139D818200692D73 /* main.m in Sources */,
+				7360AFD0139D818200692D73 /* iRemoteAppDelegate.applescript in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7360AFC6139D818200692D73 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7360AFC7139D818200692D73 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7360AFCC139D818200692D73 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7360AFCD139D818200692D73 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		7360AFD1139D818200692D73 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7360AFD2139D818200692D73 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7360AFD4139D818200692D73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7360AFD5139D818200692D73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7360AFD7139D818200692D73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iRemote/iRemote-Prefix.pch";
+				INFOPLIST_FILE = "iRemote/iRemote-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7360AFD8139D818200692D73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iRemote/iRemote-Prefix.pch";
+				INFOPLIST_FILE = "iRemote/iRemote-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7360AFB1139D818200692D73 /* Build configuration list for PBXProject "iRemote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7360AFD4139D818200692D73 /* Debug */,
+				7360AFD5139D818200692D73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7360AFD6139D818200692D73 /* Build configuration list for PBXNativeTarget "iRemote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7360AFD7139D818200692D73 /* Debug */,
+				7360AFD8139D818200692D73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7360AFAE139D818200692D73 /* Project object */;
+}

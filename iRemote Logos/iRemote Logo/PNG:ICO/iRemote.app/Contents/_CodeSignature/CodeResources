@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>files</key>
+	<dict>
+		<key>Resources/1303676552_sound_high copy 2.png</key>
+		<data>
+		uZhaPBQH23tFQUrmmHeMpIEmymU=
+		</data>
+		<key>Resources/1303676552_sound_high copy.png</key>
+		<data>
+		xM3b2H5vBRWM8bS8B5oy+HLK4P0=
+		</data>
+		<key>Resources/1303676552_sound_high.png</key>
+		<data>
+		DKQkzd/2wG2qszVOxEqcNJZMd4U=
+		</data>
+		<key>Resources/1303735638_music-note.png</key>
+		<data>
+		5Yh2jGsgi0V14eQdfLl1bTAlHO8=
+		</data>
+		<key>Resources/1303939892_monotone_search_zoom.png</key>
+		<data>
+		mW2fCrd6Fqa2RsZTG5cadNJudKk=
+		</data>
+		<key>Resources/en.lproj/Credits.rtf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			YKJIFIsxneJuNkJNJQIcJIjiPOg=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/en.lproj/InfoPlist.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			MiLKDDnrUKr4EmuvhS5VQwxHGK8=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/en.lproj/MainMenu.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			9DgBGTvD9Lk89DcY4K7zHOlABdQ=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/iRemote Icon.icns</key>
+		<data>
+		98AKErpRjJOCf2DPaHzg+pGFeBI=
+		</data>
+		<key>Resources/iRemote Logo.icns</key>
+		<data>
+		tduR82ApqlhCQ+ZbfzH6GViQCpI=
+		</data>
+		<key>Resources/iRemoteAppDelegate.scpt</key>
+		<data>
+		DodgJKOntsC94NBSaM4X7ZeCYUM=
+		</data>
+		<key>Resources/pp.png</key>
+		<data>
+		aErUtjScd3SbAD/X7AiqA2quQFQ=
+		</data>
+		<key>Resources/sf.png</key>
+		<data>
+		/EciElmafN90HKQff3eRN25zYd0=
+		</data>
+		<key>Resources/sp.png</key>
+		<data>
+		6ElzjbZQhcbdiCK96D6hdroUlgY=
+		</data>
+	</dict>
+	<key>rules</key>
+	<dict>
+		<key>^Resources/</key>
+		<true/>
+		<key>^Resources/.*\.lproj/</key>
+		<dict>
+			<key>optional</key>
+			<true/>
+			<key>weight</key>
+			<real>1000</real>
+		</dict>
+		<key>^Resources/.*\.lproj/locversion.plist$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>1100</real>
+		</dict>
+		<key>^version.plist$</key>
+		<true/>
+	</dict>
+</dict>
+</plist>

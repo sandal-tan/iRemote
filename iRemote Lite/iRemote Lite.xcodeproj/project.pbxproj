@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7337C046136636B000517602 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7337C045136636B000517602 /* Cocoa.framework */; };
+		7337C048136636B000517602 /* AppleScriptObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7337C047136636B000517602 /* AppleScriptObjC.framework */; };
+		7337C052136636B000517602 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7337C050136636B000517602 /* InfoPlist.strings */; };
+		7337C055136636B000517602 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7337C054136636B000517602 /* main.m */; };
+		7337C058136636B000517602 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 7337C056136636B000517602 /* Credits.rtf */; };
+		7337C05A136636B000517602 /* iRemote_LiteAppDelegate.applescript in Sources */ = {isa = PBXBuildFile; fileRef = 7337C059136636B000517602 /* iRemote_LiteAppDelegate.applescript */; };
+		7337C05D136636B000517602 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7337C05B136636B000517602 /* MainMenu.xib */; };
+		7337C080136640A500517602 /* iTunes Remote Lite Logo.icns in Resources */ = {isa = PBXBuildFile; fileRef = 7337C07F136640A500517602 /* iTunes Remote Lite Logo.icns */; };
+		734793E11377801000FA07DB /* iRemote Lite Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 734793E01377801000FA07DB /* iRemote Lite Icon.icns */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7337C041136636B000517602 /* iRemote Lite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iRemote Lite.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7337C045136636B000517602 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		7337C047136636B000517602 /* AppleScriptObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptObjC.framework; path = System/Library/Frameworks/AppleScriptObjC.framework; sourceTree = SDKROOT; };
+		7337C04A136636B000517602 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		7337C04B136636B000517602 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		7337C04C136636B000517602 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7337C04F136636B000517602 /* iRemote Lite-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iRemote Lite-Info.plist"; sourceTree = "<group>"; };
+		7337C051136636B000517602 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7337C053136636B000517602 /* iRemote Lite-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iRemote Lite-Prefix.pch"; sourceTree = "<group>"; };
+		7337C054136636B000517602 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7337C057136636B000517602 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		7337C059136636B000517602 /* iRemote_LiteAppDelegate.applescript */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.applescript; path = iRemote_LiteAppDelegate.applescript; sourceTree = "<group>"; };
+		7337C05C136636B000517602 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		7337C07F136640A500517602 /* iTunes Remote Lite Logo.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "iTunes Remote Lite Logo.icns"; sourceTree = "<group>"; };
+		734793E01377801000FA07DB /* iRemote Lite Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "iRemote Lite Icon.icns"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7337C03E136636B000517602 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7337C046136636B000517602 /* Cocoa.framework in Frameworks */,
+				7337C048136636B000517602 /* AppleScriptObjC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7337C036136636AF00517602 = {
+			isa = PBXGroup;
+			children = (
+				734793E01377801000FA07DB /* iRemote Lite Icon.icns */,
+				7337C04D136636B000517602 /* iRemote Lite */,
+				7337C044136636B000517602 /* Frameworks */,
+				7337C042136636B000517602 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7337C042136636B000517602 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7337C041136636B000517602 /* iRemote Lite.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7337C044136636B000517602 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7337C045136636B000517602 /* Cocoa.framework */,
+				7337C047136636B000517602 /* AppleScriptObjC.framework */,
+				7337C049136636B000517602 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7337C049136636B000517602 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7337C04A136636B000517602 /* AppKit.framework */,
+				7337C04B136636B000517602 /* CoreData.framework */,
+				7337C04C136636B000517602 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		7337C04D136636B000517602 /* iRemote Lite */ = {
+			isa = PBXGroup;
+			children = (
+				7337C07F136640A500517602 /* iTunes Remote Lite Logo.icns */,
+				7337C059136636B000517602 /* iRemote_LiteAppDelegate.applescript */,
+				7337C05B136636B000517602 /* MainMenu.xib */,
+				7337C04E136636B000517602 /* Supporting Files */,
+			);
+			path = "iRemote Lite";
+			sourceTree = "<group>";
+		};
+		7337C04E136636B000517602 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7337C04F136636B000517602 /* iRemote Lite-Info.plist */,
+				7337C050136636B000517602 /* InfoPlist.strings */,
+				7337C053136636B000517602 /* iRemote Lite-Prefix.pch */,
+				7337C054136636B000517602 /* main.m */,
+				7337C056136636B000517602 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7337C040136636B000517602 /* iRemote Lite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7337C060136636B000517602 /* Build configuration list for PBXNativeTarget "iRemote Lite" */;
+			buildPhases = (
+				7337C03D136636B000517602 /* Sources */,
+				7337C03E136636B000517602 /* Frameworks */,
+				7337C03F136636B000517602 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iRemote Lite";
+			productName = "iRemote Lite";
+			productReference = 7337C041136636B000517602 /* iRemote Lite.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7337C038136636AF00517602 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = BaldwinSoft;
+			};
+			buildConfigurationList = 7337C03B136636AF00517602 /* Build configuration list for PBXProject "iRemote Lite" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7337C036136636AF00517602;
+			productRefGroup = 7337C042136636B000517602 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7337C040136636B000517602 /* iRemote Lite */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7337C03F136636B000517602 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7337C052136636B000517602 /* InfoPlist.strings in Resources */,
+				7337C058136636B000517602 /* Credits.rtf in Resources */,
+				7337C05D136636B000517602 /* MainMenu.xib in Resources */,
+				7337C080136640A500517602 /* iTunes Remote Lite Logo.icns in Resources */,
+				734793E11377801000FA07DB /* iRemote Lite Icon.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7337C03D136636B000517602 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7337C055136636B000517602 /* main.m in Sources */,
+				7337C05A136636B000517602 /* iRemote_LiteAppDelegate.applescript in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7337C050136636B000517602 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7337C051136636B000517602 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7337C056136636B000517602 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7337C057136636B000517602 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		7337C05B136636B000517602 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7337C05C136636B000517602 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7337C05E136636B000517602 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7337C05F136636B000517602 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7337C061136636B000517602 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application: Uwe Hagedorn";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iRemote Lite/iRemote Lite-Prefix.pch";
+				INFOPLIST_FILE = "iRemote Lite/iRemote Lite-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7337C062136636B000517602 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application: Uwe Hagedorn";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iRemote Lite/iRemote Lite-Prefix.pch";
+				INFOPLIST_FILE = "iRemote Lite/iRemote Lite-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7337C03B136636AF00517602 /* Build configuration list for PBXProject "iRemote Lite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7337C05E136636B000517602 /* Debug */,
+				7337C05F136636B000517602 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7337C060136636B000517602 /* Build configuration list for PBXNativeTarget "iRemote Lite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7337C061136636B000517602 /* Debug */,
+				7337C062136636B000517602 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7337C038136636AF00517602 /* Project object */;
+}
